@@ -1,0 +1,352 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Century Gothic;
+}
+
+*::-webkit-scrollbar {
+    display: none;
+}
+
+body {
+    background-color: white;
+}
+
+.header {
+    z-index: 10000;
+
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+
+    background-color: #94BEE6;
+    padding: 20px;
+    margin-bottom: px;
+
+    display: flex;
+    justify-content: center;
+    gap: 3.2vw;
+
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.7);
+}
+
+.header a {
+    color: rgb(32, 32, 32);
+    text-decoration: none;
+    font-weight: normal;
+    font-size: medium;
+}
+
+.header a {
+    transition: 0.3s ease;
+    color: black;
+}
+
+.header a:hover {
+    transition: 0.3s ease;
+    color: white;
+    margin-top: -3px;
+}
+
+.logoLeft {
+    height: 40px;
+    width: auto;
+
+    margin-right: -20px;
+    margin-top: -10px;
+    margin-bottom: -5px;
+}
+
+.logoRight {
+    height: 30px;
+    width: auto;
+
+    margin-top: -5px;
+--+
+}
+
+.banner {
+    position: relative;
+    font-weight: bold;
+}
+
+.banner p {
+    color: white;
+    position: absolute;
+
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    font-size: 7vw;
+    margin-top: 0px;
+    text-shadow: 0 0 50px rgba(0, 0, 0, 0.7);
+}
+
+#top {
+    margin-top: -8vw;
+}
+
+#middle {
+    margin-top: -4vw;
+}
+
+
+.hvemErVi {
+    margin-top: 10px;
+    padding: px;
+    background-color: rgb(240, 240, 248);
+    padding-bottom: 100px;
+}
+
+.hvemErVi .container {
+    display: flex;
+    justify-content: center;
+    gap: 10vw;
+}
+
+.hvemErVi .heading {
+
+    padding-top: 50px;
+    font-size: 75px;
+    font-weight: bold;
+    font-family: Century Gothic;
+}
+
+.hvemErVi p {
+    font-size: 18px;
+    font-family: Calibri;
+}
+
+.hvemErVi a {
+    font-family: Calibri;
+    color: gray;
+    font-style: italic;
+}
+
+.hvemErVi img {
+    padding-top: 50px;
+    width: 240px;
+}
+
+.hvemErVi .textbox {
+    width: 500px;
+}
+
+
+.registrerMer,
+.registrerMer a {
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.2s ease;
+}
+
+.registrerMer a:hover {
+    margin-top: -2px;
+    transition: 0.2s ease;
+}
+
+
+#heading {
+    font-size: 50px;
+    font-family: Century Gothic;
+    font-weight: bold;
+}
+
+#center {
+    text-align: center;
+}
+
+.footer {
+    margin-top: 50px;
+}
+
+
+.footer .container {
+    background-color: rgb(40, 40, 40);
+    width: 100vw;
+    height: 200px;
+    margin-top: -10px;
+}
+
+.footer .text {
+    display: flex;
+    justify-content: center;
+    gap: 6.2vw;
+
+    padding-top: 50px;
+}
+
+.footer .container p,
+.footer .container a {
+
+    font-family: Calibri;
+    font-weight: bold;
+    font-size: medium;
+    color: rgb(200, 200, 200);
+}
+
+
+#darkerText {
+    color: rgb(120, 120, 120);
+}
+
+#whiteText {
+    color: white;
+}
+
+.bliMedlem {
+    color: black;
+    font-weight: bold;
+
+    margin-top: 100px;
+    font-size: 100px;
+    text-align: center;
+}
+
+#heading {
+    color: black;
+    font-weight: bold;
+
+    margin-top: 100px;
+    font-size: 100px;
+    text-align: center;
+    padding: px;
+}
+
+.treninger {
+    color: black;
+    padding-top: 10px;
+}
+
+.kamper {
+    color: white;
+    padding-top: 10px;
+}
+
+
+.kamper .container {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: rgb(75, 75, 75);
+    font-size: 1.8vw
+}
+
+.treninger .container {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #AFCEEC;
+    font-size: 1.8vw
+}
+
+.kamper .heading,
+.treninger .heading {
+    text-align: center;
+    font-size: 100px;
+    font-weight: bold;
+}
+
+.kamper .container .container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding-bottom: 450px;
+}
+
+.treninger .container .container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.line {
+    background-color: gray;
+    width: 2px;
+}
+
+.kamper .tid,
+.treninger .tid {
+    text-align: right;
+}
+
+
+#bold {
+    font-weight: bold;
+}
+
+.margintop {
+    margin-top: -30ic;
+}
+
+.oppmøte {
+    margin-bottom: 200px;
+}
+
+.lacrossehistorie .container {
+    background-color: #94BEE6;
+    width: 80vw;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.lacrossehistorie .container p {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 50%;
+    font-family: Calibri;
+    font-size: 25px;
+}
+
+.lacrossehistorie img {
+    padding-left: 10px;
+}
+
+.lacrossehistorie {
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.lacrossenorge .container {
+    background-color: rgb(75, 75, 75);
+    width: 100%;
+    z-index: -10;
+}
+
+.lacrossenorge .text {
+    display: flex;
+    justify-content: center;
+}
+
+.lacrossenorge .container p {
+
+    padding-top: 50px;
+    padding-bottom: 20px;
+    width: 60%;
+    text-align: center;
+    font-family: Calibri;
+    color: white;
+    font-size: 25px;
+}
+
+.lacrossenorge {
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.lacrossenorge a {
+    display: flex;
+    justify-content: center;
+    color: gray;
+    font-style: italic;
+    padding-bottom: 450px;
+}

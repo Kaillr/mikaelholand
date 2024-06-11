@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stemmeteller</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/styleIndex.css">
+</head>
+
+<body>
+    <div class="header">
+        <div class="container">
+            <div class="logoLeft">
+                <img src="/images/erikstadKommuneVaapenskjold.png" alt="" id="logoLeft">
+                <h1>Erikstad Kommune</h1>
+            </div>
+            <div class="links">
+                <a href="">Valgomat</a>
+                <a href="">Om Erikstad Kommune</a>
+                <a href="">Logg Inn</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="content">
+        <h1>Gi din stemme!</h1><br>
+        <div class="stemmeteller">
+
+            <div class="firstRow">
+                <div class="H">
+                    <button onclick="vote('H')">
+                        <img src="/images/parties/H.svg" alt="Høyre">
+                        <p>Høyre</p>
+                    </button>
+                </div>
+                <div class="V">
+                    <button onclick="vote('V')">
+                        <img src="/images/parties/V.svg" alt="Venstre">
+                        <p>Venstre</p>
+                    </button>
+                </div>
+                <div class="KRF">
+                    <button onclick="vote('KRF')">
+                        <img src="/images/parties/KRF.svg" alt="KRF">
+                        <p>Kristelig Folkeparti</p>
+                    </button>
+                </div>
+            </div>
+
+            <div class="separationLine"></div>
+            <div class="secondRow">
+
+                <div class="SV">
+                    <button onclick="vote('SV')">
+                        <img src="/images/parties/SV.svg" alt="SV">
+                        <p>Sosialistisk Venstreparti</p>
+                    </button>
+                </div>
+                <div class="FRP">
+                    <button onclick="vote('FRP')">
+                        <img src="/images/parties/FRP.svg" alt="FRP">
+                        <p>Fremskrittspartiet</p>
+                    </button>
+                </div>
+                <div class="MDG">
+                    <button onclick="vote('MDG')">
+                        <img src="/images/parties/MDG.svg" alt="MDG">
+                        <p>Miljøpartiet De Grønne</p>
+                    </button>
+                </div>
+            </div>
+
+            <div class="separationLine"></div>
+
+            <div class="thirdRow">
+                <div class="SP">
+                    <button onclick="vote('SP')">
+                        <img src="/images/parties/SP.svg" alt="SP">
+                        <p>Senterpartiet</p>
+                    </button>
+                </div>
+                <div class="R">
+                    <button onclick="vote('R')">
+                        <img src="/images/parties/R.svg" alt="Rødt">
+                        <p>Rødt</p>
+                    </button>
+                </div>
+                <div class="AP">
+                    <button onclick="vote('AP')">
+                        <img src="/images/parties/AP.svg" alt="AP">
+                        <p>Arbeiderpartiet</p>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <h1>Resultater</h1>
+
+        <div class="chart">
+            <canvas id="myChart"></canvas>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="container">
+            <div class="text">
+                <div class="footerContactInfo">
+                    <p id="darkerText">Kontaktinfo</p>
+                    <a href="mailto:kommune@erikstad.no.com">kommune@erikstad.no</a>
+                    <p>Telefon: (+47) 987 65 432</p><br>
+                </div>
+                <div class="footerSocials">
+                    <p id="darkerText">Sosiale</p>
+                    <a href="">Facebook</a><br>
+                </div>
+
+                <div class="footerDesigner">
+                    <p id="darkerText">Design service<br></p>
+                    <p>Mikael Holand (Kuben Elev)<br>
+                        Kuben videregående skole<br>
+                        0581 Oslo</p>
+                </div>
+
+                <div class="footerLocation">
+                    <p id="darkerText">Lokasjon</p>
+                    <p>Erikstad</p>
+                </div>
+            </div>
+
+            <p></p>
+        </div>
+    </div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="/js/script.js"></script>
+
+</html>

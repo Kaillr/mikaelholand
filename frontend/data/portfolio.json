@@ -1,0 +1,28 @@
+[
+    {
+      "name": "Portfolio Item 1",
+      "image": "../assets/images/portfolio/album_cover.png",
+      "description": "Album cover",
+      "link": "#"
+    },
+    {
+      "name": "Me",
+      "image": "../assets/images/mikael/winter.jpg",
+      "description": "This is me, i am me, me is me, me is not my name, my name is mikael, mikael holand",
+      "link": "#"
+    },
+    {
+      "name": "Portfolio Item 3",
+      "image": "../assets/images/portfolio/hand.png",
+      "description": "Description for portfolio item 3.",
+      "link": "#"
+    },
+    {
+      "name": "Portfolio Item 4",
+      "image": "../assets/images/portfolio/racistChairs.png",
+      "description": "Description for portfolio item 4.",
+      "link": "../assets/videos/portfolio/cinemagraph.mp4",
+      "button": "Watch Video"
+    }
+  ]
+  
