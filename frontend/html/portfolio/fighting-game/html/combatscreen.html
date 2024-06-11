@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Combat Screen</title>
+    <link rel="stylesheet" href="../styles/style.css">
+    <link rel="stylesheet" href="../styles/combat_screen_styles.css">
+</head>
+
+<body>
+    <div class="bg">
+        <div class="skybox"></div>
+        <div class="ground"></div>
+    </div>
+
+    <div class="header">
+        <h1>Fighting: a-aron</h1>
+    </div>
+
+    <div class="player-container">
+        <div class="player">
+            <div id="charges"></div>
+            <div class="health-bar-container">
+                <div class="health-bar player" id="player-health"></div>
+                <div class="health-bar-border"></div>
+            </div>
+            <img src="../images/manwithsword.png" alt="Player Model">
+        </div>
+        <div class="attack-container" id="attack-container">
+        </div>
+        <div class="player">
+            <div id="spell-info-enemy"></div>
+            <div id="enemy-move"></div>
+            <div class="health-bar-container">
+                <div class="health-bar enemy" id="enemy-health"></div>
+                <div class="health-bar-border"></div>
+            </div>
+            <div class="blocked">
+                <div id="blocked"></div>
+                <img src="../images/manwithsword-flipped.png" alt="Enemy Model">
+            </div>
+        </div>
+    </div>
+    <a href="../html/menu.html" class="menu-button"><button>Back to menu</button></a>
+    <div id="gold-amount"></div>
+    <div id="game-over"></div>
+    <script src="../javascript/combat.js"></script>
+    <script src="../javascript/gold.js"></script>
+</body>
+
+</html>

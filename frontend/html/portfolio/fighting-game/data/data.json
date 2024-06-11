@@ -1,0 +1,29 @@
+{
+    "abilities": [
+        {
+            "name": "Basic Attack",
+            "damage": 15,
+            "chance": 0.8,
+            "cost": 0
+        },
+        {
+            "name": "Uppercut",
+            "damage": 30,
+            "chance": 0.4,
+            "cost": 0
+        },
+        {
+            "name": "Charged Move (6)",
+            "damage": 60,
+            "chance": 0.8,
+            "chargeCost": 6,
+            "cost": 100
+        }
+    ],
+    "enemy": {
+        "name": "Enemy",
+        "health": 200,
+        "maxHealth": 200,
+        "gold": 150
+    }
+}
