@@ -8,6 +8,7 @@
     box-sizing: border-box;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    line-height: 1.4;
 }
 
 @font-face {
@@ -17,7 +18,7 @@
 
 
 body {
-    background-color: rgb(30, 30, 30);
+    background-color: rgb(20, 20, 20);
 }
 
 body::-webkit-scrollbar {
@@ -50,7 +51,7 @@ button {
     top: 0;
     position: fixed;
     z-index: -100;
-    opacity: 0.5;
+    opacity: 0.4;
     filter: blur(30px);
 }
 
@@ -81,6 +82,7 @@ header {
     opacity: 0;
     transition: ease;
     transition: 0.5s ease-out;
+    -webkit-backdrop-filter: blur(6px);
     backdrop-filter: blur(6px);
 }
 
@@ -185,7 +187,6 @@ header h1 {
     font-size: 22px;
     color: white;
     transition: transform 0.1s ease-out;
-    margin-bottom: -2px;
 }
 
 .nav-socials i:hover {
@@ -245,6 +246,7 @@ header h1 {
 
         transition: 0.4s;
 
+        -webkit-backdrop-filter: blur(6px);
         backdrop-filter: blur(6px);
         filter: drop-shadow(0 0 4px rgba(0, 0, 0, 0.3));
     }
@@ -281,6 +283,7 @@ header h1 {
 footer {
     padding: 80px 13% 70px;
     background-color: transparent;
+    -webkit-backdrop-filter: blur(30px) brightness(0.5);
     backdrop-filter: blur(30px) brightness(0.5);
 
     display: grid;
@@ -365,14 +368,18 @@ footer {
     justify-content: center;
     align-items: center;
     background: rgba(0, 0, 0, 0.5);
+    -webkit-backdrop-filter: blur(5px);
     backdrop-filter: blur(5px);
     overflow: hidden;
 }
 
 .fullscreen .media {
-    display: flex; /* Use flexbox */
-    justify-content: center; /* Center horizontally */
-    align-items: center; /* Center vertically */
+    display: flex;
+    /* Use flexbox */
+    justify-content: center;
+    /* Center horizontally */
+    align-items: center;
+    /* Center vertically */
     height: fit-content;
     width: fit-content;
     position: relative;
@@ -382,6 +389,7 @@ footer {
 .fullscreen .media video {
     max-height: 80vh;
     max-width: 80vw;
+    min-height: calc(15vw + 15vh);
 }
 
 
@@ -396,7 +404,9 @@ footer {
     font-size: 25px;
     text-shadow: 0 0 6px rgba(0, 0, 0, 0.7);
     transition: transform 0.07s ease-out;
+    -webkit-backdrop-filter: blur(4px);
     backdrop-filter: blur(4px);
+    z-index: 1;
 }
 
 .fullscreen .media i:hover {

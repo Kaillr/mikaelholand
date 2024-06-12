@@ -11,17 +11,17 @@ body {
 
 @font-face {
     font-family: Gothic;
-    src: url(/fonts/CenturyGothic.ttf);
+    src: url(../fonts/CenturyGothic.ttf);
 }
 
 @font-face {
     font-family: GothicBold;
-    src: url(/fonts/GothicBold.ttf);
+    src: url(../fonts/GothicBold.ttf);
 }
 
 @font-face {
     font-family: Text;
-    src: url(/fonts/OpenSans.ttf);
+    src: url(../fonts/OpenSans.ttf);
 }
 
 h1 {
