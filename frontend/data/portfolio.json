@@ -1,101 +1,100 @@
 [
-    {
-      "name": "Album Cover",
-      "date": "16 Oct, 2023",
-      "image": "../assets/images/portfolio/album_cover.png",
-      "description": "This photo comes from a group project where we played around with lighting to get this cool chromatic effect. Then, I edited it to look like an album cover.",
-      "link": ""
-    },
-    {
-      "name": "Hand with a hole",
-      "date": "date unknown",
-      "image": "../assets/images/portfolio/hand.png",
-      "description": "This hand above is from my very first project in school. We had to create an image using masks in Adobe Photoshop.",
-      "link": ""
-    },
-    {
-      "name": "Racist Chairs",
-      "date": "date unknown",
-      "image": "../assets/images/portfolio/racistChairs.jpg",
-      "Video": "../assets/videos/portfolio/racistChairs.mp4",
-      "description": "This was a video project with the task of personifying an object. I decided to create a short story about a chair of different color being excluded and mistreated.",
-      "link": "",
-      "button": "Play Video"
-    },
-    {
-      "name": "Hell Sjove",
-      "date": "date unknown",
-      "image": "../assets/images/portfolio/hellSjove.jpg",
-      "Video": "../assets/videos/portfolio/hellSjove.mp4",
-      "description": "Hell Sjove, a Minecraft short film, was a collab with 2 others for The Cubies. I filmed and edited while they acted. It's about a principal who hates stutens who arrive on time. We won 3 out of 6 awards.",
-      "link": "",
-      "button": "Play Video"
-    },
-    {
-      "name": "Tennis Ball",
-      "date": "date unknown",
-      "image": "../assets/images/portfolio/tennisBall.jpg",
-      "Video": "../assets/videos/portfolio/tennisBall.mp4",
-      "description": "This is our first video project where we had a day to make a video of ball travelling around the school.",
-      "link": "",
-      "button": "Play Video"
-    },
-    {
-      "name": "Studio Week",
-      "date": "date unknown",
-      "image": "../assets/images/portfolio/studioWeek.jpg",
-      "Video": "../assets/videos/portfolio/studioWeek.mp4",
-      "description": "This video was from a studio week we had early in our first year. We were in groups of 7 and my job was to cut the create graphics, cut cameras live, and edit the final product.",
-      "link": "",
-      "button": "Play Video"
-    },
-    {
-      "name": "Cinemagraph",
-      "date": "date unknown",
-      "image": "../assets/images/portfolio/cinemagraph.gif",
-      "description": "This is a project where we were told to make a cinemagraph. This involvs having moving parts on a still image.",
-      "link": ""
-    },
-    {
-      "name": "Zestflix",
-      "date": "date unknown",
-      "image": "../assets/images/portfolio/zestflix.jpg",
-      "description": "",
-      "link": "../html/portfolio/zestflix/html/index.html"
-    },
-    {
-      "name": "Oslo Lacrosse",
-      "date": "date unknown",
-      "image": "../assets/images/portfolio/osloLacrosse.jpg",
-      "description": "",
-      "link": "../html/portfolio/oslo-lacrosse/index.html"
-    },
-    {
-      "name": "Voting Website",
-      "date": "date unknown",
-      "image": "../assets/images/portfolio/voting.jpg",
-      "description": "",
-      "link": "../html/portfolio/voting-website/html/index.html"
-    },
-    {
-      "name": "Fighting Game",
-      "date": "date unknown",
-      "image": "../assets/images/portfolio/fightingGame.jpg",
-      "description": "",
-      "link": "../html/portfolio/fighting-game/html/menu.html"
-    },
-    {
-      "name": "ØkernBBIL",
-      "date": "date unknown",
-      "image": "../assets/images/portfolio/OkernBBIL.svg",
-      "description": "In this project, we designed a logo and branding manual for a made-up basketball team. This image is the logo I designed."
-    },
-    {
-      "name": "Color Palette",
-      "date": "date unknown",
-      "image": "../assets/images/portfolio/colorPalette.png",
-      "description": "Above is a color palette we were told to make. My color palette was inspired by the anime character Ryo Yamada ",
-      "link": ""
-    }
-  ]
-  
+  {
+    "name": "Hand with a hole",
+    "date": "date unknown",
+    "image": "../assets/images/portfolio/hand.jpg",
+    "description": "This hand above is from my very first project in school. We had to create an image using masks in Adobe Photoshop.",
+    "link": ""
+  },
+  {
+    "name": "Album Cover",
+    "date": "16 Oct, 2023",
+    "image": "../assets/images/portfolio/album_cover.jpg",
+    "description": "This photo comes from a group project where we played around with lighting to get this cool chromatic effect. Then, I edited it to look like an album cover.",
+    "link": ""
+  },
+  {
+    "name": "Racist Chairs",
+    "date": "date unknown",
+    "image": "../assets/images/portfolio/racistChairs.jpg",
+    "Video": "../assets/videos/portfolio/racistChairs.mp4",
+    "description": "This was a video project with the task of personifying an object. I decided to create a short story about a chair of different color being excluded and mistreated.",
+    "link": "",
+    "button": "Play Video"
+  },
+  {
+    "name": "Hell Sjove",
+    "date": "date unknown",
+    "image": "../assets/images/portfolio/hellSjove.jpg",
+    "Video": "../assets/videos/portfolio/hellSjove.mp4",
+    "description": "Hell Sjove, a Minecraft short film, was a collab with 2 others for The Cubies. I filmed and edited while they acted. It's about a principal who hates stutens who arrive on time. We won 3 out of 6 awards.",
+    "link": "",
+    "button": "Play Video"
+  },
+  {
+    "name": "Tennis Ball",
+    "date": "date unknown",
+    "image": "../assets/images/portfolio/tennisBall.jpg",
+    "Video": "../assets/videos/portfolio/tennisBall.mp4",
+    "description": "This is our first video project where we had a day to make a video of ball travelling around the school.",
+    "link": "",
+    "button": "Play Video"
+  },
+  {
+    "name": "Studio Week",
+    "date": "date unknown",
+    "image": "../assets/images/portfolio/studioWeek.jpg",
+    "Video": "../assets/videos/portfolio/studioWeek.mp4",
+    "description": "This video was from a studio week we had early in our first year. We were in groups of 7 and my job was to cut the create graphics, cut cameras live, and edit the final product.",
+    "link": "",
+    "button": "Play Video"
+  },
+  {
+    "name": "Cinemagraph",
+    "date": "date unknown",
+    "image": "../assets/images/portfolio/cinemagraph.gif",
+    "description": "This is a project where we were told to make a cinemagraph. This involvs having moving parts on a still image.",
+    "link": ""
+  },
+  {
+    "name": "Zestflix",
+    "date": "date unknown",
+    "image": "../assets/images/portfolio/zestflix.jpg",
+    "description": "",
+    "link": "../html/portfolio/zestflix/html/index.html"
+  },
+  {
+    "name": "Oslo Lacrosse",
+    "date": "date unknown",
+    "image": "../assets/images/portfolio/osloLacrosse.jpg",
+    "description": "",
+    "link": "../html/portfolio/oslo-lacrosse/index.html"
+  },
+  {
+    "name": "Voting Website",
+    "date": "date unknown",
+    "image": "../assets/images/portfolio/voting.jpg",
+    "description": "",
+    "link": "../html/portfolio/voting-website/html/index.html"
+  },
+  {
+    "name": "Fighting Game",
+    "date": "date unknown",
+    "image": "../assets/images/portfolio/fightingGame.jpg",
+    "description": "",
+    "link": "../html/portfolio/fighting-game/html/menu.html"
+  },
+  {
+    "name": "ØkernBBIL",
+    "date": "date unknown",
+    "image": "../assets/images/portfolio/OkernBBIL.svg",
+    "description": "In this project, we designed a logo and branding manual for a made-up basketball team. This image is the logo I designed."
+  },
+  {
+    "name": "Color Palette",
+    "date": "date unknown",
+    "image": "../assets/images/portfolio/colorPalette.png",
+    "description": "Above is a color palette we were told to make. My color palette was inspired by the anime character Ryo Yamada ",
+    "link": ""
+  }
+]
