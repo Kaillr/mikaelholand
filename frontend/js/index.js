@@ -4,7 +4,7 @@ window.addEventListener('scroll', () => {
 
     const hero = document.querySelector('.heroImage');
     hero.style.backgroundPosition = `center calc(50% + ${scrollOffset}px)`;
-    hero.style.filter = `saturate(1.2) blur(${blurAmount}px)`;
+    hero.style.filter = `saturate(0) blur(${blurAmount}px)`;
 
     const aboutMe = document.querySelector('.me');
     aboutMe.style.marginTop = `${scrollOffset}px`; // Adjusted margin calculation

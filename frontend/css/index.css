@@ -1,22 +1,33 @@
 .hero {
     width: 100%;
-    height: 80vh;
-    padding: 0 100px;
     position: relative;
     display: flex;
     align-items: center;
+    
+}
+
+.me {
+    position: absolute;
+    height: 90%;
+    bottom: 0;
+    z-index: -1;
+}
+
+.me img {
+    height: 100%;
+    width: auto;
 }
 
 .heroImage {
     height: 100%;
     width: 100%;
-
+    background-image: url(../assets/images/hero/coding.jpg);
     background-position: center center;
     background-size: cover;
-    opacity: .6;
-    filter: saturate(1.2);
-    z-index: -1;
+    opacity: 0.3;
+    z-index: -2;
     position: absolute;
+    filter: saturate(0);
 }
 
 .aboutMe {
@@ -25,7 +36,8 @@
     flex-direction: column;
     justify-content: right;
     width: 100%;
-
+    bottom: 0;
+    padding: 50px 100px;
 }
 
 h1 {
