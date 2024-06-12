@@ -2,21 +2,8 @@
     width: 100%;
     position: relative;
     display: flex;
-    align-items: center;
-    
 }
 
-.me {
-    position: absolute;
-    height: 90%;
-    bottom: 0;
-    z-index: -1;
-}
-
-.me img {
-    height: 100%;
-    width: auto;
-}
 
 .heroImage {
     height: 100%;
@@ -30,18 +17,61 @@
     filter: saturate(0);
 }
 
+.heroContainer {
+    padding: 60px 100px 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.me {
+    width: 60%;
+    object-fit: ;
+
+}
+
 .aboutMe {
     text-align: right;
-    display: flex;
-    flex-direction: column;
-    justify-content: right;
-    width: 100%;
-    bottom: 0;
-    padding: 50px 100px;
 }
 
 h1 {
     font-family: 'Franklin Gothic Heavy', 'Arial Narrow', Arial, sans-serif;
-    font-size: 140px;
+    font-size: 8vw;
     line-height: 1;
+    margin-top: 6vw;
+
+    background: -webkit-linear-gradient(to right, rgb(150, 255, 176), rgb(230, 104, 255)); /* For older versions of Chrome and Safari */
+    background: -moz-linear-gradient(to right, rgb(150, 255, 176), rgb(230, 104, 255)); /* For older versions of Firefox */
+    background: -o-linear-gradient(to right, rgb(150, 255, 176), rgb(230, 104, 255)); /* For older versions of Opera */
+    background: linear-gradient(to right, rgb(150, 255, 176), rgb(230, 104, 255)); /* Standard syntax */    
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.hero h2 {
+    font-size: 2.04vw;
+    margin-top: -1vw;
+    font-family: Microsoft Yi Baiti;
+}
+
+.hero .buttons {
+    display: flex;
+    gap: 2vw;
+    justify-content: right;
+}
+
+.hero a {
+    font-family: Aller;
+    padding: 0.3vw 1vw;
+    border: 4px solid;
+    border-image: linear-gradient(to right, rgb(150, 255, 176), rgb(230, 104, 255)) 1;
+    font-size: calc(0.5vw + 10px);
+    transition: color 0.1s ease-out, background-color 0.2s ease-out;
+}
+
+.hero a:hover {
+    color: black;
+    background-color: white;
+    border: 4px white solid;
 }
