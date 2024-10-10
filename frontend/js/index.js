@@ -1,11 +1,53 @@
-window.addEventListener('scroll', () => {
-    const scrollOffset = window.pageYOffset * 0.5;
-    const blurAmount = Math.min(window.pageYOffset / 25, 20);
-
-    const hero = document.querySelector('.heroImage');
-    hero.style.backgroundPosition = `center calc(50% + ${scrollOffset}px)`;
-    hero.style.filter = `saturate(0) blur(${blurAmount}px)`;
-
-    const aboutMe = document.querySelector('.me');
-    aboutMe.style.marginTop = `${scrollOffset}px`; // Adjusted margin calculation
+window.addEventListener('scroll', function() {
+    const hero = document.querySelector('.hero');
+    const scrolled = window.scrollY;
+    
+    // Calculate the new height of the hero, but keep it at 0 when fully scrolled past it
+    hero.style.height = "calc(100vh - " + scrolled + "px)";
+    
+    // Offset the content below the hero to compensate for its shrinking height
+    document.body.style.marginTop = scrolled + 'px';
 });
+
+
+
+
+
+function sleep(ms) {
+    return new Promise((resolve) => setTimeout(resolve,ms));
+}
+
+const phrases = ["Student of Kuben VGS", "Front & Back End Developer"];
+const element = document.getElementById("typewriter")
+
+let sleepTime = 75;
+
+let curPhraseIndex = 0;
+
+const writeLoop = async () => {
+    while (true) {
+        let curWord = phrases[curPhraseIndex]
+
+        for (let i = 0; i < curWord.length; i++) {
+            element.innerText = curWord.substring(0, i + 1);
+            await sleep(sleepTime)
+        }
+
+        await sleep(sleepTime * 15);
+        
+        for (let i = curWord.length; i > 0; i--) {
+            element.innerText = curWord.substring(0, i - 1);
+            await sleep(sleepTime)
+        }
+
+        await sleep(sleepTime * 5);
+
+        if (curPhraseIndex === phrases.length - 1) {
+            curPhraseIndex = 0;
+        } else {
+            curPhraseIndex++;
+        }
+    }
+};
+
+writeLoop()
