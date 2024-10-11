@@ -17,7 +17,7 @@ function sleep(ms) {
     return new Promise((resolve) => setTimeout(resolve,ms));
 }
 
-const phrases = ["Student of Kuben VGS", "Front & Back End Developer"];
+const phrases = ["Student of Kuben VGS", "Front & Back End Developer", ""];
 const element = document.getElementById("typewriter")
 
 let sleepTime = 75;

@@ -18,7 +18,7 @@
     mask-image: linear-gradient(to left, black, transparent);
     z-index: -1;
     position: absolute;
-    opacity: .3;
+    opacity: 0.5;
     mix-blend-mode: add;
     filter: saturate(0.8);
 }
