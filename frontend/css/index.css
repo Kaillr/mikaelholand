@@ -144,6 +144,9 @@
     bottom: 0;
     padding: 20px 0;
     z-index: 1;
+    background: linear-gradient(to right, rgb(150, 255, 176), rgb(230, 104, 255));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .hero .socials i {
@@ -151,7 +154,8 @@
 }
 
 .hero .socials i:hover {
-    filter: brightness(0.6);
+    transform: scale(1.1);
+    
 }
 
 .hero .text {
