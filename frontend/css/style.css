@@ -291,9 +291,7 @@ header h1 {
 
 footer {
     padding: 80px 13% 70px;
-    background-color: transparent;
-    -webkit-backdrop-filter: brightness(0.5);
-    backdrop-filter: brightness(0.5);
+    background-color: rgba(0, 0, 0, 0.5);
 
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, auto));
