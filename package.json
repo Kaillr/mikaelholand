@@ -1,12 +1,16 @@
 {
-  "name": "mikaelholand",
+  "name": "backend",
   "version": "1.0.0",
-  "description": "Hi! I am Mikael Holand, and this is my webiste",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^4.21.1",
+    "path": "^0.12.7"
+  }
 }
