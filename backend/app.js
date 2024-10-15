@@ -2,7 +2,7 @@ const express = require("express");
 const path = require("path");
 
 const app = express();
-const port = 3002;
+const port = 3001;
 
 app.use((req, res, next) => {
     if (req.path !== '/' && req.path.endsWith('/')) {
