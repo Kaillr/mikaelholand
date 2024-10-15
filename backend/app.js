@@ -2,7 +2,7 @@ const express = require("express");
 const path = require("path");
 
 const app = express();
-const port = 3001;
+const port = 3002;
 
 app.use((req, res, next) => {
     if (req.path !== '/' && req.path.endsWith('/')) {
@@ -16,7 +16,8 @@ app.use((req, res, next) => {
 app.use(express.static(path.join(__dirname, "../frontend")));
 
 app.get("/sitemap.xml", (req, res) => {
-    res.sendFile(path.join(__dirname, "../frontend", "sitemap.xml"));
+    res.type('application/xml');
+    res.sendFile(path.join(__dirname, "../", "sitemap.xml"));
 });
 
 app.get("/", (req, res) => {
