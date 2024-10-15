@@ -15,6 +15,10 @@ app.use((req, res, next) => {
 // Serve the frontend folder as static files
 app.use(express.static(path.join(__dirname, "../frontend")));
 
+app.get("/sitemap.xml", (req, res) => {
+    res.sendFile(path.join(__dirname, "../frontend", "sitemap.xml"));
+});
+
 app.get("/", (req, res) => {
     res.sendFile(path.join(__dirname, "../frontend", "index.html"));
 });
