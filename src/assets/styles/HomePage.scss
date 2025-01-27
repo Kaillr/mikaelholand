@@ -1,0 +1,223 @@
+.hero {
+    height: 100vh;
+
+    position: relative;
+    top: 0;
+    display: flex;
+    overflow: hidden;
+    
+}
+
+
+.heroBG {
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-image: url(../images/hero/coding.jpg);
+    mask-image: linear-gradient(to left, black, transparent);
+    z-index: -1;
+    position: absolute;
+    opacity: 0.5;
+    mix-blend-mode: add;
+    filter: saturate(0.8);
+}
+
+.content {
+    padding: 0 100px;
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+.textGrad {
+    height: fit-content;
+    width: fit-content;
+
+    background: linear-gradient(to right, rgb(150, 255, 176), rgb(230, 104, 255));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.heroLeft {
+    position: absolute;
+    bottom: 40%;
+}
+
+.hero .heading h1 {
+    font-size: 6vw;
+    font-family: Montserrat;
+    letter-spacing: 4%;
+    word-spacing: -10%;
+    white-space: nowrap;
+    margin-bottom: -0.7vw;
+}
+
+.hero .heading {
+    display: flex;
+    gap: 2vw;
+    width: fit-content;
+    height: fit-content;
+    border-bottom: 0.3vw solid white;
+    border-image: linear-gradient(to right, rgb(150, 255, 176), rgb(230, 104, 255)) 1;
+}
+
+.hero .subtitle {
+    font-family: Montserrat;
+    font-size: 2vw;
+    font-weight: 400;
+    letter-spacing: 4%;
+    word-spacing: -10%;
+    margin-top: 0.5vw;
+    margin-bottom: 2vw;
+    text-align: left;
+    display: flex;
+}
+
+#typewriter {
+}
+
+#cursor {
+    display: block;
+    margin-top: -0.15vw;
+    margin-bottom: 0.15vw;
+    margin-left: -0.2vw;
+    user-select: none;
+    animation: blink 1.06s steps(1) infinite;
+}
+
+@keyframes blink {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
+}
+
+.hero .buttonContainer {
+    width: fit-content;
+    height: auto;
+    display: flex;
+    gap: 1.5vw; 
+    margin-bottom: 1vw;  
+}
+
+.hero .button1, .hero .button2 {
+    box-sizing: border-box;
+    display: inline-block;
+
+    font-family: Montserrat;
+    font-weight: 500;
+    padding: 0.3vw 1.5vw;
+    font-size: 1vw;
+    border: 0.3vw solid;
+}
+
+.hero .button1 {
+    border-image: linear-gradient(to right, rgb(150, 255, 176), rgb(230, 104, 255)) 1;
+}
+
+.hero .button2 {
+    color: black;
+    background-color: white;
+    background-image: linear-gradient(to right, rgb(150, 255, 176), rgb(230, 104, 255));
+    border-image: linear-gradient(to right, rgb(150, 255, 176), rgb(230, 104, 255)) 1;
+    border-width: 0.3vw;
+    border-style: solid;
+    border-color: transparent;
+}
+
+.hero .button1:hover, .hero .button2:hover {
+    background-color: white;
+    color: black;
+    border-color: white;
+    border-image: none;
+    background-image: none;
+}
+
+.hero .socials {
+    display: flex;
+    gap: 1.5vw;
+    position: absolute;
+    bottom: 0;
+    padding: 20px 0;
+    z-index: 1;
+    background: linear-gradient(to right, rgb(150, 255, 176), rgb(230, 104, 255));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.hero .socials i {
+    font-size: 2vw;
+}
+
+.hero .socials i:hover {
+    transform: scale(1.1);
+    
+}
+
+.hero .text {
+    width: fit-content;
+}
+
+.hero .arrowContainer {
+    position: absolute;
+    left: 0;
+    bottom: 20px;
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero .arrow {
+    height: 1.5vw;
+    width: 1.5vw;
+
+    transform: rotate(45deg);
+    border-top: 0.3vw solid white;
+    border-left: 0.3vw solid white;
+
+    filter: drop-shadow(0 0 0.5vw black);
+}
+
+@media (max-width: 1024px) {
+    .content {
+        padding: 0 5%;
+    }
+
+    .heroLeft {
+        transform: scale(1.5);
+        transform-origin: bottom left;
+    }
+    
+    .hero .socials {
+        transform: scale(1.5);
+        transform-origin: left;
+    }
+
+    .hero .arrow {
+        transform: rotate(45deg) scale(1.5);
+        transform-origin: bottom;
+    }
+}
+
+@media (max-width: 512px) {
+    .heroLeft {
+        transform: scale(2.35);
+        transform-origin: bottom left;
+    }
+    
+    .hero .socials {
+        transform: scale(2.35);
+        transform-origin: left;
+    }
+
+    .hero .arrow {
+        transform: rotate(45deg) scale(2.35);
+        transform-origin: bottom;
+    }
+}
